@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.75)), url(./pexels-mike-bird-104372.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%; 
+}
+.navbar-1{
+    height: 9vh;
+   position: sticky;
+   top: 10px;
+}
+.navbar-1 .logo{
+     float: left;
+     margin-left: 50px;
+ 
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}
+.navbar-1 .list-cars{
+    float: right;
+    margin-right: 50px;
+}
+.list-cars ul{
+    margin-top: 10px;
+    list-style: none;
+}
+.list-cars ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.list-cars ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'poppins', sans-serif;
+    transition: all .5s ease-in-out;
+}
+.list-cars ul li a:hover{
+    color: aqua;
+}
+.navbar-2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.navbar-2 ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar-2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'REM', Courier, monospace;
+    transition: all .5s ease-in-out;
+}
+.navbar-2 ul li a:hover{
+    color: aquamarine;
+}
+.main-content{
+    color: white;
+    font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.main-content .whole{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.whole h1{
+    margin-top: 90px;
+    font-family: 'REM', sans-serif;
+    margin-bottom: 20px;
+}
+.whole button{
+    padding: 5px 20px;
+    font-family: 'poppins', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first-image{
+    width: 900px;
+    margin: 60px auto 0 auto;
+    display: flex;
+}
+.first-image .mini-image{
+    flex-basis: 40%;
+    margin-left: 50px;
+}
+.first-image .mini-image img{
+    height: 250px;
+    object-fit: cover;
+}
+.first-image .image-content{
+    flex-basis: 60%;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.image-content h1{
+    font-family: 'poppins', sans-serif;
+    margin-top: 50px;
+}
+.evolution{
+    display: flex;
+    width: 90%;
+
+    margin: 50px auto 0 auto;
+}
+.evolution .ev-image{
+    flex-basis: 60%;
+}
+.ev-image img{
+    height: 400px;
+    width: 100%;
+}
+.detail{
+    flex-basis: 40%;
+    text-align: center;
+    font-family: 'poppins';
+    margin-left: 40px;
+}
+.detail h1{
+    margin-top: 60px;
+}
+.gallery{
+    width: 1000px;
+    margin: 40px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.gallery div img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.footer{
+    width: 100%;
+    background-color: beige;
+    color: black;
+}
+.container{
+    font-family: 'REM';
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.container ul li{
+    font-family: 'poppins';
+}
+.container .contact{
+    margin: 0 40px;
+}
+.container div img{
+    height: 100px;
+    width: 100px;
+    margin: 30px 0 30px 100px;
+}
